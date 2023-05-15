@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>WEB AIMLAB</title>
+        <link rel="stylesheet" type="text/css" href="style.css"> <!-- style dosyamızın uzazntısını veriyoruz -->
+    </head>
+
+    <body>
+        <button id="rehber">Oyun Talimatları</button> <!-- Oyun Talimatlarını alert olarak vereceğim ve bir buton oluşturdum id sini rehber olarak atayıp gerekli işlemleri css dosyasında yaptım -->
+        <select id="bg-sec"> <!-- Combobox ile frame arka planını değiştirmek için seçenekler sundum -->
+            <option value="background.webp">Arka Plan : CS:GO DUST 2</option>
+            <option value="bg_valo.png">Arka Plan : VALORANT ASCENT</option>
+            <option value="bg_siege.jpg">Arka Plan : R6 SIEGE : HOUSES</option>
+        </select>
+
+        <h1>WEB AIM</h1> <!-- Başlık -->
+
+        <div id="frame"> <!-- Oyunumuzun çalıştığı ekran id sini frame olarak atayıp gerekli işlemleri script ve css dosyasında yaptım -->
+            <div id="skor" style="color: aliceblue;">Skor: 0</div> <!-- Skor tablomuz id si sayesinde sürekli güncellenebiliyor -->
+            <div id="zaman" style="color: aliceblue;">Zaman: 60</div> <!-- Kalan zamanı gösteren kronometre -->
+        </div>
+        <script src="script.js"></script> <!-- javascript dosyasını atadım -->
+    </body>
+</html>

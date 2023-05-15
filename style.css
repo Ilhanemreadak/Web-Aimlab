@@ -1,0 +1,58 @@
+body {
+    background-color: #F8F8FF;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#rehber{
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    margin-left: 100px;
+}
+
+#bg-sec {
+    text-align: left;
+    width: 220px;
+    height: 30px;
+    margin-left: 1350px;
+}
+
+#frame {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    width: 1800px;
+    height: 800px;
+    border: 2px solid black;
+    background-image: url('background.webp');
+}
+
+#skor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    font-size: 24px;
+}
+
+#zaman {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.target {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    background-image: url(target.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
