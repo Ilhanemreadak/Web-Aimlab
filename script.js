@@ -81,7 +81,7 @@ const rehberButton = document.getElementById("rehber"); // Oyun rehberinin buton
 const secbg = document.getElementById("bg-sec");    //Frame backgroundu değiştirmek için olan comboboxımız için değişkeni atıyoruz 
 
 rehberButton.addEventListener("click", function () {    // Oyun rehberi butonuna tıklandığında alert atabilmek için butona listener ekliyoruz ve oyun rehberini alert atıyoruz
-    alert("WEBAIM rekabetçi fps shooter oyunlarındaki aiminizi antremana geliştirip daha üst seviyeye getirmenizi amaçlar. vurduğunuz her hedefte skorunuz 1 puan artar ve vurduğunuz her 4 hedefte bir  oyun zorluğu artar. Arkaplan seçeneklerinden bazı oyunların arkaplanlarına ulaşabilirsiniz.");
+    alert("WEBAIM rekabetçi fps shooter oyunlarındaki aiminizi antremana geliştirip daha üst seviyeye getirmenizi amaçlar. vurduğunuz her hedefte skorunuz 1 puan artar ve vurduğunuz her 4 hedefte bir  oyun zorluğu artar. Arkaplan seçeneklerinden bazı oyunların arkaplanlarına ulaşabilirsiniz.Oyuna girdiğinizde canavs ekranınıza sığmıyor ise tarayıcıda ctrl+scroll ile büyütme küçültme yaparak düzeltebilirsiniz.");
 });
 
 secbg.addEventListener("change", function () {  //Frame backgroundu değiştirmek için olan comboboxımızda herhangi bir değişikli durumu olduğunda arkaplan değiştirebilmek için listener ekliyoruz
